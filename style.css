@@ -1,0 +1,31 @@
+/* body {
+  min-height: 3000px;
+} */
+
+.jumbotron {
+  padding-top: 7rem;
+  background-color: navajowhite;
+}
+
+#card {
+  background-color: navajowhite;
+}
+
+.contact {
+}
+
+.card {
+  transition: transform 0.2s;
+  border: 10px white;
+  /* background-color: white; */
+}
+
+.card:hover {
+  transform: scale(1.5);
+  border: 10px white;
+  z-index: 99;
+}
+
+section {
+  padding-top: 5rem;
+}
